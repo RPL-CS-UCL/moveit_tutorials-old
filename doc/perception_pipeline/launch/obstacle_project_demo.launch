@@ -1,6 +1,6 @@
 <launch>
   <!-- <param name="use_sim_time" value="true" /> -->
-  <include file="$(find panda_moveit_config)/launch/demo.launch" />
+  <include file="$(find panda_moveit_config)/launch/demo-project.launch" />
 
   <!-- Play the rosbag that contains the pointcloud data -->
   <node pkg="moveit_tutorials" type="bag_publisher_maintain_time" name="point_clouds" />
